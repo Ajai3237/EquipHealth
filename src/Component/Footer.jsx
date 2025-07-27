@@ -3,51 +3,54 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
 function Footer() {
     return (
-        <>
-            <footer style={{ backgroundColor: '#ff6600', color: 'white', padding: '40px 0' }}>
-                <Container>
-                    <Row>
-                        {/* Left Side - Info */}
-                        <Col md={6} className="mb-4">
-                            <h5>EquipHealth</h5>
-                            <p>Your trusted partner for modern medical equipment advertising.</p>
-                            <h6 className="mt-4">Contact Us</h6>
-                            <p>Email: contact@equiphealth.com</p>
-                            <p>Phone: +91 98765 43210</p>
-                            <p>Location: 123 Health Street, Kochi, India</p>
-                        </Col>
+        <footer style={{ background: 'linear-gradient(to left, #b3e2f7ff, #f5eee1ff)', color: '#333', padding: '50px 0' }}>
+            <Container>
+                <Row>
+                    {/* Info Section */}
+                    <Col md={6} className="mb-4">
+                        <h4 style={{ color: '#ff6600', fontWeight: 'bold' }}>EquipHealth</h4>
+                        <p>Your trusted partner for modern medical equipment advertising.</p>
 
-                       
-                        <Col md={6}>
-                            <h6>Send Us Feedback</h6>
-                            <Form>
-                                <Form.Group className="mb-2" controlId="formName">
-                                    <Form.Label className="text-white">Name</Form.Label>
-                                    <Form.Control type="text" placeholder="Enter your name" />
-                                </Form.Group>
+                        <div className="mt-4">
+                            <h6 style={{ color: '#ff6600' }}>Contact Us</h6>
+                            <p className="mb-1"><strong>Email:</strong> contact@equiphealth.com</p>
+                            <p className="mb-1"><strong>Phone:</strong> +91 98765 43210</p>
+                            <p><strong>Location:</strong> 123 Health Street, Kochi, India</p>
+                        </div>
+                    </Col>
 
-                                <Form.Group className="mb-2" controlId="formEmail">
-                                    <Form.Label className="text-white">Email</Form.Label>
-                                    <Form.Control type="email" placeholder="Enter your email" />
-                                </Form.Group>
+                    {/* Feedback Form */}
+                    <Col md={6}>
+                        <h5 style={{ color: '#ff6600' }}>Send Us Feedback</h5>
+                        <Form>
+                            {/* <Form.Group className="mb-3" controlId="formName">
+                                <Form.Label>Name</Form.Label>
+                                <Form.Control type="text" placeholder="Enter your name" />
+                            </Form.Group>
 
-                                <Form.Group className="mb-2" controlId="formFeedback">
-                                    <Form.Label className="text-white">Message</Form.Label>
-                                    <Form.Control as="textarea" rows={3} placeholder="Your feedback" />
-                                </Form.Group>
+                            <Form.Group className="mb-3" controlId="formEmail">
+                                <Form.Label>Email</Form.Label>
+                                <Form.Control type="email" placeholder="Enter your email" />
+                            </Form.Group> */}
 
-                                <Button variant="light" type="submit" className="mt-2">
-                                    Submit
-                                </Button>
-                            </Form>
-                        </Col>
-                    </Row>
+                            <Form.Group className="mb-3" controlId="formFeedback">
+                                <Form.Label>Message</Form.Label>
+                                <Form.Control as="textarea" rows={3} placeholder="Your feedback" />
+                            </Form.Group>
 
-                    <hr style={{ borderColor: 'rgba(255,255,255,0.3)' }} />
-                    <p className="text-center mb-0">&copy; 2025 EquipHealth. All rights reserved.</p>
-                </Container>
-            </footer>
-        </>
+                            <Button variant="warning" type="submit" className="text-white" style={{ backgroundColor: '#ff6600', border: 'none' }}>
+                                Submit
+                            </Button>
+                        </Form>
+                    </Col>
+                </Row>
+
+                <hr style={{ borderColor: '#ccc', marginTop: '40px' }} />
+                <p className="text-center mb-0" style={{ color: '#555' }}>
+                    &copy; 2025 <span style={{ color: '#ff6600' }}>EquipHealth</span>. All rights reserved.
+                </p>
+            </Container>
+        </footer>
     );
 }
 
