@@ -58,13 +58,24 @@ function Content() {
             <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner ">
                     {/* Slide 1 */}
+
                     <div className="carousel-item active position-relative">
                         <img
-                            src="/ai.png"
+                            src="/WhatsApp Image 2025-07-27 at 21.43.30_20f47197.jpg"
                             style={{ height: '600px', objectFit: 'cover' }}
                             className="d-block w-100"
                             alt="Slide 1"
                         />
+                        <div className="carousel-caption d-flex justify-content-start align-items-center h-100">
+                            <div className="text-start" style={{ maxWidth: '700px' }}>
+                                <h1
+                                    style={{ fontFamily: 'sans-serif', color: '#fff', textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}
+                                    className="text-white fw-bold display-5 text-shadow"
+                                >
+                                    Trusted Quality ,<br/>Built On Quality, <br />  Unparalleled Value...
+                                </h1>
+                            </div>
+                        </div>
 
                     </div>
 
@@ -204,7 +215,7 @@ function Content() {
                         </Card.Body>
                     </Card>
 
-                   
+
                     <div className="buy-now-button-wrapper mb-2">
                         <Button style={{ width: '280px' }} variant="primary" size="sm">Buy Now</Button>
                     </div>
@@ -248,7 +259,7 @@ function Content() {
                         </Card.Body>
                     </Card>
 
-                   
+
                     <div className="buy-now-button-wrapper mb-2">
                         <Button style={{ width: '280px' }} variant="primary" size="sm">Buy Now</Button>
                     </div>
@@ -292,7 +303,7 @@ function Content() {
                         </Card.Body>
                     </Card>
 
-                    
+
                     <div className="buy-now-button-wrapper mb-2">
                         <Button style={{ width: '280px' }} variant="primary" size="sm">Buy Now</Button>
                     </div>
@@ -335,7 +346,7 @@ function Content() {
                         </Card.Body>
                     </Card>
 
-                   
+
                     <div className="buy-now-button-wrapper mb-2">
                         <Button style={{ width: '280px' }} variant="primary" size="sm">Buy Now</Button>
                     </div>
@@ -378,7 +389,7 @@ function Content() {
                         </Card.Body>
                     </Card>
 
-                    
+
                     <div className="buy-now-button-wrapper mb-2">
                         <Button style={{ width: '280px' }} variant="primary" size="sm">Buy Now</Button>
                     </div>
@@ -422,7 +433,7 @@ function Content() {
                         </Card.Body>
                     </Card>
 
-                   
+
                     <div className="buy-now-button-wrapper mb-2">
                         <Button style={{ width: '280px' }} variant="primary" size="sm">Buy Now</Button>
                     </div>
@@ -465,7 +476,7 @@ function Content() {
                         </Card.Body>
                     </Card>
 
-                 
+
                     <div className="buy-now-button-wrapper mb-2">
                         <Button style={{ width: '280px' }} variant="primary" size="sm">Buy Now</Button>
                     </div>
@@ -520,7 +531,7 @@ function Content() {
                 {/*  */}
 
 
-                <h2 style={{ textShadow: '2px 2px 6px rgba(0, 0, 0, 0.3)' }} className="text-center mb-4 fw-bold"> OUR MEDICAL EQUIPMENTS </h2>
+                <h2 style={{ textShadow: '2px 2px 6px rgba(38, 36, 36, 0.3)', color: 'gray' }} className="text-center mb-4 fw-bold"> OUR MEDICAL EQUIPMENTS</h2>
                 <Row>
 
                     <Col md={7}>
@@ -609,9 +620,10 @@ function Content() {
 
                 {/* RECENTLY ADDED  */}
 
-                <h2 style={{ textShadow: '2px 2px 6px rgba(0, 0, 0, 0.3)' }} className="text-center mb-4 fw-bold  "> RECENTLY ADDED </h2>
+                <h2 style={{ textShadow: '2px 2px 6px rgba(0, 0, 0, 0.3)', color: 'GrayText' }} className="text-center mb-4 fw-bold  "> RECENTLY ADDED </h2>
 
                 <div style={{ marginTop: '70px' }} className="d-flex justify-content-between  gap-4">
+
                     {/* Card 1 */}
                     <Card style={{ width: '18rem' }} className="shadow-lg border-0 service-card">
                         <Card.Img
