@@ -7,7 +7,6 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* button  */
 .card-container {
     position: relative;
     transition: all 0.3s ease;
@@ -15,7 +14,7 @@
 
 .buy-now-button-wrapper {
     position: absolute;
-    bottom: -40px; /* Push below card */
+    bottom: -40px;
     left: 50%;
     transform: translateX(-50%) translateY(10px);
     opacity: 0;
@@ -59,7 +58,7 @@
 
 
 
-/* Set Solway font globally */
+
 body {
   font-family: "Solway", serif;
   font-weight: 300;
