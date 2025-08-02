@@ -72,7 +72,7 @@ function Content() {
                                     style={{ fontFamily: 'sans-serif', color: '#fff', textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}
                                     className="text-white fw-bold display-5 text-shadow"
                                 >
-                                    Trusted Quality ,<br/>Built On Quality, <br />  Unparalleled Value...
+                                    Trusted with out Quality and our build ,<br/>Built On Quality, <br />  Unparalleled Value...
                                 </h1>
                             </div>
                         </div>
@@ -138,7 +138,7 @@ function Content() {
 
             <Container className="my-5">
                 <h2 className="text-center mb-4 fw-bold text-primary" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>
-                    Our Services
+                    Our Services and our Commitment to Quality
                 </h2>
                 <Row className="g-4">
                     {services.map((service, index) => (
